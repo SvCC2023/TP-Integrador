@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+    
+    
+    
+    <title>TP Integrador mio</title>
+</head>
+<body> 
+    
+   <script src="boton.js"> </script>
+
+
+            <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-secondary"> 
+                <div class="container-fluid ">  
+                    <div class="nav d-inline-flex p-2 text-white" > 
+                        <h6 class=" fs-4 text-white ">Conf Bs As</h6>
+                    </div>
+                    <ul class="nav justify-content-end">
+                      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page" style="color:#fff">La conferencia</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" style="color:  #adb5bd">Los oradores</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" style="color:  #adb5bd">El lugar y la fecha</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" style="color:  #adb5bd" >Conviértete en orador</a></li>
+                      <li class="nav-item"><a href="index.html" class="nav-link" style="color: rgb(19, 194, 19)">Comprar tickets</a></li> 
+                    </ul>
+                 </div> 
+             </nav>
+
+  <div class="container-fluid row">
+       <div class="col"></div>
+          <div class="col text-center border border-primary my-4 mx-1 p-3">
+              <h3>Estudiante</h3>
+              <p>Tienen un descuento</p>
+              <h3>80%</h3>
+               <p class="text-secondary">* presentar documentación</p>
+          </div>
+          <div class="col text-center border border-primary my-4 mx-1 p-3">
+              <h3>Trainee</h3>
+              <p>Tienen un descuento</p>
+              <h3>50%</h3>
+              <p class="text-secondary">* presentar documentación</p>
+          </div>
+          <div class="col text-center border border-warning my-4 mx-1 p-3">
+                <h3>Junior</h3>
+                <p>Tienen un descuento</p>
+                <h3>15%</h3>
+                 <p class="text-secondary">* presentar documentación</p>
+         </div>
+     <div class="col"></div>
+  </div>
+  <!--Valor de los tickests falta negrita -->
+ <div class="container-fluid"><p class="text-uppercase text-center" id="venta">Venta</p></div>
+ <div class="container-fluid"><h1 class="text-uppercase text-center">Valor de Ticket $200</h2></div>
+
+
+             <div class="container   ">
+      
+                <div class="w-75 m-auto">
+                 <form class="mt-1 " action="" method="post">
+                     <div class="mb-2">
+                        <div class="row">
+                           <div class="form-group col-md-6 ">        
+                              <input type="text" class="form-control" id="name"   placeholder="Nombre">
+                           </div>
+                          <div class="col-md-6">
+                             <input type="text"class="form-control" id="lname"  placeholder="Apellido">
+                            </div>
+                         </div>
+                     </div>                       
+                      <div class="mb-3 mt-3">
+                       <input type="email" class="form-control" id="email" placeholder="correo" name="email">
+                      </div>                     
+                                   
+                  </form>
+                         </div>  
+         </div>                
+         
+                    </div>
+
+<div class="container   ">
+      
+    <div class="row">
+    
+      
+       
+        
+     <div class="w-75 m-auto">
+         <form class="mt-1 " action="" method="post">
+                <div class="mb-2">
+                   <div class="row">
+                       <div class="form-group col-md-6 ">
+                        <label for="sel1" class="form-label">Cantidad</label>
+                        <input type="text" name="cantidad"  class="form-control"  id= "cantidad"placeholder="cantidad">
+                       </div>
+                       <div class="col-md-6">
+                        <form action="/action_page.php">
+                            <label for="sel1" class="form-label">Categoria</label>
+                              <select class="form-select" id="sel1" name="sellist1">
+                                <option>estudiante</option>
+                                <option>trainee</option>
+                                <option>junior</option>
+                            </select>
+                       </div>
+                   </div>
+                </div>
+        
+                
+                <!-- agrego TOTAL A PAGAR-->
+                <div class="row">
+                  <div class="TotalAPagar" >
+                        <div class="input-group">
+                            <span class="input-group-text">Total a Pagar $</span>
+                            <input type="text " class="form-control" id="totalAPagar" placeholder="" name="TotalApagar"
+                                 readonly>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row my-2">
+        
+        
+                    <div class="col d-grid">
+                        <input type="reset" class="btn btn-success" style="background-color: rgb(135, 207, 64)" value="Borrar" ></button>
+                    </div>
+                    <div class="col d-grid">
+                        <input type="button" class="btn btn-success" id="resumen" style="background-color: rgb(135, 207, 64)" value="Resumen" onclick="calcularPrecio()" ></button>
+                    </div>
+                  </div>
+             </div>                  
+             
+       </div> 
+ </div>
+
+
+             <div class=" row mt-2 "> 
+          
+                <div class="container -fluid "> 
+                 <ul class="nav justify-content-between align-items-center w3-2018-sailor-blue">
+                   <li class="nav-item"><a href="#" class="nav-link px-5 text-white">Preguntas<br>frecuentes</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contáctanos</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Prensa</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Conferencias</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Terminos y<br>condiciones</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Privacidad</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link px-5 text-white">Estudiantes</a></li>
+                 </ul>
+               </div>  
+              </div>
+            
+     
+                  
+</body>
+</html>

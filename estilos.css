@@ -1,0 +1,111 @@
+
+h2{
+    color:fff;
+    background-color:#727578 ;
+
+ 
+} 
+
+#parrafoUnico{
+  
+    color: #fff;;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 85px;
+    text-align: right;   
+
+}  
+
+
+#form {
+  text-align: center;
+  color:rgb(55, 55, 55);
+}
+
+ #floatingTextarea {
+  max-height:80px;
+  max-width:51%;
+  margin-left:265px ;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #727578;
+  padding-top:5px;
+}
+
+
+
+ 
+.botonFormulario{
+  max-width: 30%;
+  position: relative;
+  margin-left: 265px;
+  margin-top: -5px;
+  background-color:rgb(135, 207, 64);
+}
+
+  
+ 
+.footer {
+    color: rgb(6, 35, 61);
+}
+
+.formulario{
+    
+    color: #38DE2C;
+      }
+    
+    
+      .containerBox {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .txBlanco1 {
+        font-weight: bolt;
+        color:#fff
+      }
+
+      .txBlanco {
+        color: #fff;
+      }
+
+      .txVerde {
+        background-color: rgb(55, 55, 55);
+        color: rgb(135, 207, 64);
+      }
+
+      .txGris {
+        background-color: rgb(55, 55, 55);
+        color: rgb(23, 228, 50);
+      }
+
+      .bgGris {
+        background-color: #727578;
+      }
+
+      .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: 120px;
+        margin: auto;
+        padding: auto;
+      }
+      .margConoceMas {
+        padding-top: 15px;
+        padding-block-end: 15px;
+      } 
+      
+      .colorIngresoDato{
+          color: rgb(4, 196, 29);
+          font-weight:400;
+
+      }
+      
+
+    .imgOpaca {
+        filter: brightness(.5);
+    }
+     
+    .bgAzul {
+      background-color: #245381;
+    }  
